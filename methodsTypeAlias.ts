@@ -47,10 +47,35 @@ const cutZero : 함수type = (a) => {
     const 맨처음글자 = a.slice(0, 1);
 
     if (맨처음글자 === '0'){
+        console.log(a.slice(1, a.length))
         return a.slice(1, a.length)
     } else {
+        console.log(a)
         return a
     }
 }
-cutZero('0123')
+cutZero('012')
+
+type 함수type2 = (a : string) => number;
+const removeDash : 함수type2 = (a) => {
+    const removeA = a.replace(/\-/g, '')
+    if(removeA) {
+        return Number(removeA)
+    }
+    return Number(a)
+}
+removeDash('123-143')
+
+
+// (숙제3) 함수에 함수를 집어넣고 싶습니다.
+type 함수type3 = (a : string) => string;
+type 함수type4 = (a : string) => number;
+
+const callback함수 = (a: string, b: 함수type3, c: 함수type4) => {
+    const cutA = b(a)
+    const removeA = c(cutA) 
+
+    return removeA
+}
+callback함수('0123-4567', cutZero, removeDash)
 

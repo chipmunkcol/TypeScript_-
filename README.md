@@ -17,3 +17,5 @@
 7. Literal Types로 만드는 const 변수 유사품
 
 8. 함수와 methods에 type alias 지정하는 법
+
+9. 타입스크립트로 HTML 변경과 조작할 때 주의점

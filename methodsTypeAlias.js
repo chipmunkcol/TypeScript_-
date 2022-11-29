@@ -28,9 +28,26 @@ var 회원정보2 = {
 var cutZero = function (a) {
     var 맨처음글자 = a.slice(0, 1);
     if (맨처음글자 === '0') {
+        console.log(a.slice(1, a.length));
         return a.slice(1, a.length);
     }
     else {
+        console.log(a);
         return a;
     }
 };
+cutZero('012');
+var removeDash = function (a) {
+    var removeA = a.replace(/\-/g, '');
+    if (removeA) {
+        return Number(removeA);
+    }
+    return Number(a);
+};
+removeDash('123-143');
+var callback함수 = function (a, b, c) {
+    var cutA = b(a);
+    var removeA = c(cutA);
+    return removeA;
+};
+callback함수('0123-4567', cutZero, removeDash);
