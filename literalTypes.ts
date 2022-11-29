@@ -16,7 +16,7 @@ let 자료 = {
     name : 'jack'
 }
 
-function 함수(a : 'jack'){
+function 함수1(a : 'jack'){
 
 }
 // 함수(자료.name) => 'jack' 이라는 type만 올수 있어서 자료.name이 'jack'이지만 오류남 

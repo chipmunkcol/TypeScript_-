@@ -15,3 +15,5 @@
 6. 타입도 변수에 담아쓰세요 type 키워드 써서 & readonly
 
 7. Literal Types로 만드는 const 변수 유사품
+
+8. 함수와 methods에 type alias 지정하는 법

@@ -80,6 +80,6 @@ let 민수쌤 = { subject : ['science', 'art', 'korean'] }
 // 그리고 타입지정도 엄격하게 해보도록 합시다. 
 
 function lastSubject(x :{ subject :string|string[] }){
-    Object.values()
+    // Object.values()
     
 }

@@ -61,5 +61,5 @@ var 민수쌤 = { subject: ['science', 'art', 'korean'] };
 // 그 선생님이 가르치고 있는 과목중 맨 뒤의 1개를 return 해주는 함수를 만들어봅시다.
 // 그리고 타입지정도 엄격하게 해보도록 합시다. 
 function lastSubject(x) {
-    Object.values();
+    // Object.values()
 }
