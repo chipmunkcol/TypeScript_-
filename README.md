@@ -19,3 +19,7 @@
 8. 함수와 methods에 type alias 지정하는 법
 
 9. 타입스크립트로 HTML 변경과 조작할 때 주의점
+
+10. (JS문법시간) class 키워드 알아보기
+
+11. (JS 문법시간) prototype 문법 짚어보기
